@@ -1,0 +1,73 @@
+<html>
+
+
+  <head>
+    
+    <title>Valorant Stat Tracker</title>
+    <link rel="stylesheet" href="CSS/valstattrack.css">
+
+</head>
+
+<header>
+  <h1>Valorant Stat Tracker</h1>
+</header>
+    
+
+<body>
+  
+  <style>
+    body {
+      background-image: url('https://wallpapercave.com/wp/wp2510496.gif');
+    }
+    </style>
+
+  <div class="help-text">
+    <ul>
+        <li><a href="https://tracker.gg/valorant/profile/riot/Daddy%20Sturt%237010/overview">Daddy Sturt</a></li>
+        <li><a href="https://tracker.gg/valorant/profile/riot/Beef%20neck%238889/overview">Beef neck</a></li>
+        <li><a href="https://tracker.gg/valorant/profile/riot/a%20new%20user%23NA1/overview">a new user</a></li>
+        <li><a href="https://tracker.gg/valorant/profile/riot/0MoregankFreeman%23NA1/overview">camelriderz</a></li>
+        <li><a href="https://tracker.gg/valorant/profile/riot/BigLumbowski%23NA1/overview">biglumbowski</a></li>
+      </ul>
+</div>
+
+<div class="score-board">
+  <div class="user-badge" id="user-label">
+  user
+  </div>
+
+  <div class="comp-badge" id="computer-label">
+  comp
+  </div>
+
+<span id="user-score">0</span>:<span id="computer-score">0</span>
+</div>
+
+<div class="result">
+  <p>Paper beats Rock. You win!</p>
+</div>
+
+<div class="choices">
+  
+  <div class="choice" id="rock">
+   <img alt="rock hand" onclick="shootRock()" src="imagess/stone_PNG13545.png">
+  </div>
+
+  <div class="choice" id="paper">
+      <img alt="paper hand" onclick="shootPaper()" src="imagess/paper.png">
+     </div>
+
+  <div class="choice" id="scissors">
+      <img alt="scissors hand" onclick="shootScissors()" src="imagess/scissors.png">
+     </div>
+
+  </div>
+
+
+<script src = "./JS/rockpaperscissors.js"></script>
+
+</body>
+
+
+</html>
+
